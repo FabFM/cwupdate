@@ -5,12 +5,12 @@ import { DebounceInput } from "react-debounce-input";
 
 //  Easy to adjust variables
 const title = "Crypto Wiz";
-const title2 = "Risk Reward Calculator";
+const title2 = "RM Calculator";
 const currencySymbol = "£";
 
 const App = () => {
   const [data, setData] = useState({
-    portfolioSize: "",
+    accountSize: "",
     marginSizePct: "",
     marginSizeVal: "",
     riskPct: "",
